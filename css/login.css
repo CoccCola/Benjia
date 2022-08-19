@@ -1,0 +1,75 @@
+a{
+	display: inline-block;
+}
+body{
+	text-align: center;
+}
+.logo{
+	padding: 18vw 0 26.13vw 0;
+	width: 16vw;
+}
+.login_form{
+	padding: 0 5.33vw 5.2vw 5.33vw;
+}
+.login_form input{
+	width: 84.06vw;
+	padding: 3.5vw 2.8vw;
+	font-size: 3.73vw;
+	color: #777;
+	outline: none;
+	border: solid 0.13vw #b7b7b7;
+	margin-bottom: 4.8vw;
+}
+.login_form input:nth-child(2){
+	margin-bottom: 7.73vw;
+}
+.login_form button{
+	width: 89.33vw;
+	padding: 5.33vw 0;
+	border-radius: 1.33vw;
+	border: none;
+	outline: none;
+	background-color: #c55a5c;
+	color: #fff;
+	font-size: 3.73vw;
+	font-family: PingFang-SC-Regular;
+}
+.helper{
+	margin:  0 5.33vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 12.4vw;
+	border-bottom: 0.1vw solid #d8d8d8;
+	margin-bottom: 8.3vw;
+		font-size: 3.73vw;
+}
+.helper a{
+	color: #aaa;
+	
+}
+.helper .other_way{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) translateY(50%);
+	background-color: #fff;
+	padding: 0  3.73vw;
+	color: #555;
+
+}
+.other_ways{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24vw;
+	
+}
+.other_ways a{
+	color: #555;
+	font-size: 3.73vw;
+}
+.other_ways img{
+	width: 6.4vw;
+	padding-bottom: 1.3vw;
+}

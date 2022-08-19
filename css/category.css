@@ -1,0 +1,157 @@
+body {
+	font-family: PingFang-SC-Regular;
+}
+
+header {
+	position: relative;
+	background-color: #fbfbfb;
+	padding: 1.6vw 0;
+	border-bottom: solid 0.1vw #cecece;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100vw;
+}
+
+header .search-box {
+	width: 92vw;
+	margin: 0 auto;
+}
+
+header .search-box .gotoSearch {
+	box-sizing: border-box;
+	display: inline-block;
+	border: none;
+	padding: 2.4vw;
+	background-color: #ededed;
+	width: 100%;
+	border-radius: 1.33vw;
+	text-align: center;
+	font-size: 3.73vw;
+	font-weight: bold;
+	color: #999999;
+	outline: none;
+}
+
+.content {
+	display: flex;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 13.18vw 0 15.35vw;
+
+}
+
+.content .left {
+	width: 21.6vw;
+	text-align: center;
+	font-size: 3.47vw;
+	font-weight: bold;
+	color: #555555;
+	border-right: solid 0.1vw #cecece;
+	box-sizing: border-box;
+	overflow: auto;
+	padding: 2vw 0 4vw 0;
+
+}
+
+.content .left .item {
+	padding: 1.5vw 0;
+	margin: 3.5vw 0;
+
+}
+
+.content .left .item.selected {
+	border-left: 0.8vw solid #c55a5c;
+	color: #c55a5c;
+}
+
+.content .left .item.redtext {
+	color: #c55a5c;
+}
+
+.content .right {
+	padding: 4vw 3.73vw 0 3.73vw;
+	text-align: center;
+	width: 78.4vw;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.content .right .banner img {
+	width: 70.4vw;
+}
+
+.content .right .title {
+	font-size: 3.47vw;
+	font-weight: bold;
+	color: #555555;
+	padding: 3vw 0 7.5vw 0;
+}
+
+.content .right .sub_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.null{
+	text-align: center;
+	width: 100%;
+}
+.content .right .sub_list .item {
+	padding: 0 4.72vw 7.2vw 4.13vw;
+}
+
+.content .right .sub_list .item img {
+	width: 14.8vw;
+	margin-bottom: 2.4vw;
+
+}
+
+.content .right .sub_list .item .name {
+	font-size: 3.2vw;
+	font-weight: bold;
+	color: #777777;
+	width: 14.8vw;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+
+
+/* 底部导航栏 */
+nav {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top: 0.4vw solid #eaeaea;
+}
+
+nav .nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3.2vw 2vw 1vw 2vw;
+	background-color: #fff;
+}
+
+nav .nav a {
+	font-family: MicrosoftYaHeiUI;
+	font-size: 2.4vw;
+	color: #555555;
+}
+
+nav .nav a:visited {
+	color: #555555;
+}
+
+nav .nav li {
+	text-align: center;
+	width: 10vw;
+}
+
+nav .nav li img {
+	width: 5.6vw;
+}

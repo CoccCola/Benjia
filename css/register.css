@@ -1,0 +1,86 @@
+a{
+	display: inline-block;
+}
+body{
+	text-align: center;
+}
+.logo{
+	padding: 17vw 0 17vw 0;
+	width: 16vw;
+}
+.reg_form{
+	padding: 0 5.33vw 13.5vw 5.33vw;
+	font-size: 3.73vw;
+	color: #777;
+}
+.reg_form>div{
+	width: 89.33vw;
+	margin-bottom: 4.5vw;
+}
+.reg_form>div:nth-child(1),.reg_form>div:nth-child(2){
+	margin: 0;
+}
+.reg_form>div>input{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 3.3vw 2.8vw;
+	font-size: 3.73vw;
+	outline: none;
+	border: solid 0.13vw #b7b7b7;
+}
+.reg_form .sex{
+	width: 84.06vw;
+	padding: 3.5vw 0;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.reg_form .sex .radio_name{
+	margin-right: 3.5vw;
+}
+.reg_form .sex .boy{
+	margin-right: 10vw;
+}
+.reg_form .sex input{
+	margin-right: 3.3vw;
+}
+.reg_form button{
+	width: 89.33vw;
+	padding: 5vw 0;
+	/* margin-bottom: 5vw; */
+	border-radius: 1.33vw;
+	border: none;
+	outline: none;
+	background-color: #c55a5c;
+	color: #fff;
+	font-size: 3.73vw;
+	font-family: PingFang-SC-Regular;
+}
+ .reg_form .phone_num-box .phone_num{
+	padding-left: 21vw;
+}
+.reg_form .phone_num-box>select{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	outline: none;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	padding-left: 2vw;
+	width: 19vw;
+}
+.reg_form .ver_code-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.reg_form  .ver_code{
+	width: 60vw;
+}
+.reg_form  .get_code{
+	border: solid 0.13vw #b7b7b7;
+	padding: 3.5vw 2.8vw;
+}
+.agreement{
+	font-size: 2.67vw;
+}

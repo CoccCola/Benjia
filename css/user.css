@@ -1,0 +1,158 @@
+a {
+	display: inline-block;
+}
+
+/* img{
+	display: block;
+} */
+body {
+	background-color: #eee;
+	padding-bottom: 40vw;
+}
+
+header {
+	height: 53.33vw;
+	background: url(../img/user/bg.jpg) center top no-repeat;
+	background-size: 100%;
+}
+
+header .user_inf {
+	height: 32.27vw;
+	width: 92vw;
+	background-color: #fff;
+	box-shadow: 0vw 0.67vw 2.48vw 0.19vw rgba(13, 4, 9, 0.09);
+	position: absolute;
+	bottom: -5.73vw;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+header .user_inf .user {
+	position: absolute;
+	top: -12.5vw;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+header .user_inf .user .img-box {
+	width: 16.8vw;
+	height: 16.8vw;
+	box-shadow: 0vw 0.27vw 0.92vw 0.01vw rgba(0, 0, 0, 0.08);
+	border: solid 0.4vw #ffffff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+header .user_inf .user .name {
+	font-family: MicrosoftYaHeiUI;
+	font-size: 4.53vw;
+	color: #333333;
+	text-align: center;
+	padding-top: 2.8vw;
+}
+
+header .user_inf .left,
+header .user_inf .right {
+	text-align: center;
+	font-family: MicrosoftYaHeiUI;
+	font-size: 3.73vw;
+	color: #333333;
+	padding-bottom: 3.5vw;
+}
+
+header .user_inf .num {
+	margin-bottom: 1.5vw;
+}
+
+.my_order {
+	margin-top: 8.53vw;
+	background-color: #fff;
+	margin-bottom: 2.13vw;
+}
+
+.my_order .top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3.2vw 3.5vw;
+	font-family: MicrosoftYaHeiUI;
+	font-size: 3.73vw;
+	color: #333333;
+	border-bottom: 0.2vw solid #eaeaea;
+}
+
+.my_order .top a {
+	font-family: MicrosoftYaHeiUI;
+	font-size: 3.73vw;
+	color: #333333;
+}
+
+.my_order .top img {
+	height: 3.3vw;
+	margin-left: 1.5vw;
+}
+
+.my_order ul,.my_assets ul ,.tool ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.my_order ul li,.my_assets ul li,.tool ul li {
+	text-align: center;
+	padding: 5.5vw 0;
+	width: 19vw;
+}
+
+.my_order ul li img,.my_assets ul li img,.tool ul li img {
+	width: 8vw;
+}
+
+.my_order ul li .name,.my_assets ul li .name,.tool ul li .name {
+	font-family: MicrosoftYaHeiUI;
+	font-size: 3.2vw;
+	color: #555555;
+}
+
+.my_assets,.tool {
+	background-color: #fff;
+	margin-bottom: 2.13vw;
+}
+.my_assets .top,.tool .top {
+	padding: 3.2vw 3.5vw;
+	font-family: MicrosoftYaHeiUI;
+	font-size: 3.73vw;
+	color: #333333;
+}
+nav{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top:0.4vw solid #eaeaea ;
+}
+nav a{
+		font-family: MicrosoftYaHeiUI;
+		font-size: 2.4vw;
+		color: #555555;
+}
+nav a:visited {
+	color: #555555;
+}
+
+nav .nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3.2vw 2vw 1vw 2vw ;
+	background-color: #fff;
+}
+nav .nav li{
+	text-align: center;
+}
+nav .nav li img{
+	width: 5.6vw;
+}

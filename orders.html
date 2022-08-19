@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>待付款</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/orders.css">
+	</head>
+	<body>
+		<header>
+			<img class="arrow-left" src="./img/order/arrow.png" alt="">
+			<span class="title">我的订单</span>
+		</header>
+		<ul class="nav">
+			<li class="item relative" data-sta="0">待付款<div class="bubble"></div></li>
+			<li class="item relative" data-sta="3">待发货<div class="bubble"></div></li>
+			<li class="item relative" data-sta="4">待收货<div class="bubble"></div></li>
+			<li class="item relative" data-sta="5">待评价<div class="bubble"></div></li>
+			<li class="item relative" >已完成<div class="bubble"></div></li>
+		</ul>
+		<ul class="order_list">
+			
+		</ul>
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/alert.js"></script>
+		<script src="./js/utils.js"></script>
+		<script src="./js/orders.js"></script>
+	</body>
+</html>

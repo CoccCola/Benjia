@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/goods_detail.css">
+		<link rel="stylesheet" type="text/css" href="lib/swiper/css/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<header>
+			<a href="#"><img onclick=history.back()  class="arrow-left" src="./img/goods_detail/arrow.png" alt=""></a>
+			<a href="#">
+				<div class="goodsbtn">商品</div>
+			</a>
+			<a href="#detail">
+				<div class="detailbtn">详情</div>
+			</a>
+			<a href="#"><img class="index" src="./img/goods_detail/index.png" alt=""></a>
+			<a href="#"><img class="share" src="./img/goods_detail/share.png" alt=""></a>
+		</header>
+		<div class="goods">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+				</div>
+				<div class="swiper-pagination"></div>				
+			</div>
+			<div class="box">
+				<div class="left">
+				</div>
+				<div class="right">
+					<div class="count">469</div>
+					<div class="evl">用户评价</div>
+					<div class="more"><a href="#eval_list">查看</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="service_options">
+			<div class="count_select oBuy">规格数量选择<img src="./img/goods_detail/arrow_r_setting.png" alt=""></div>
+			<div class="promotion">1个促销：<span>120款爆品满3件8折</span><img src="./img/goods_detail/arrow_r_setting.png"
+					alt=""></div>
+			<div class="point">积分：购买最高可得59积分</div>
+			<div class="service">服务：
+				<span>30天无忧退换货 &nbsp; 48小时快速退款 满88元免邮费 </span>
+				<img src="./img/goods_detail/arrow_r_setting.png" alt="">
+			</div>
+		</div>
+		<div class="evaluate">
+			<div class="head">
+				<div class="count">用户评价：(536)</div>
+				<div>
+					<span class="good_eval">99.1% 好评</span>
+					<img src="./img/goods_detail/arrow_r_setting.png" alt="">
+				</div>
+			</div>
+			<ul class="eval_list" id="eval_list">
+				<li class="item">
+					<div class="user">
+						<img class="avatar" src="./img/goods_detail/avatar.jpg" alt="">
+						<span class="name">x****n</span>
+						<img class="vip" src="./img/goods_detail/viplogo.jpg" alt="">
+						<img class="start" src="./img/goods_detail/start.jpg" alt="">
+					</div>
+					<div class="data">
+						<span class="date">2017.12.4 10：20</span>
+						<span class="style">灰紫：1.8M</span>
+					</div>
+					<div class="content">质感相当不错，很舒服，本人比较喜欢</div>
+					<div class="img-box">
+						<img src="./img/goods_detail/evaluate.jpg" alt="">
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="detail" id="detail">
+			<div class="title">商品详情</div>
+			<div class="detail_data">
+				<!-- 数据库中自带一整块 -->
+				<img src="./img/goods_detail/detail.jpg" alt="">
+			</div>
+		</div>
+		<div class="control_strip">
+			<div class="link-box">
+				<a href="#"><img src="./img/goods_detail/service.png" alt=""></a>
+				<a href="./cart.html"><img src="./img/goods_detail/cart.png" alt=""></a>
+				<div  class="coll"><img src="./img/goods_detail/collection.png" alt=""></div>
+			</div>
+			<div class="cart oBuy">加入购物车</div>
+			<div class="buy oBuy">立即购买</div>
+		</div>
+		
+		<div class="to_top"><a href="#"><img src="./img/goods_detail/top.png" alt=""></a></div>
+		
+		<div class="buy-window">
+			<div class="content">
+				<div class="top">
+					<div class="data">
+						<img src="./img/goods_detail/buypic.jpg" alt="">
+						<div>
+							<div class="price">价格：￥599</div>
+							<div class="text">请选择规格属性</div>
+						</div>
+					</div>
+					<img class="cancel" src="./img/goods_detail/cancel.jpg" alt="">
+				</div>
+				<div class="color">
+					<div class="title">颜色</div>
+					<ul class="option">
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+						<li>灰紫</li>
+						<li>浅咖色</li>
+
+
+					</ul>
+				</div>
+				<div class="size">
+					<div class="title">尺寸</div>
+					<ul class="option">
+						<li>1.2M</li>
+						<li>1.8M</li>
+					</ul>
+				</div>
+				<div class="count">
+					<div class="title">数量</div>
+					<div class="count_control">
+						<span class="sub">-</span>
+						<input type="number" value="1">
+						<span class="add">+</span>
+					</div>
+				</div>
+				<div class="confirm">确认</div>
+			</div>
+		</div>
+		<script src="./js/alert.js"></script>
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/utils.js"></script>
+		<script src="lib/swiper/js/swiper-bundle.min.js"></script>
+		<script src="lib/swiper/js/TweenMax.min.js"></script>
+		<script src="./js/goods_detail.js"></script>
+		
+	</body>
+</html>

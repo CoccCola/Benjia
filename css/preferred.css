@@ -1,0 +1,323 @@
+a {
+	display: inline-block;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+header {
+	position: relative;
+	background-color: #fbfbfb;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 4.8vw;
+	color: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 94.4vw;
+	border-bottom: #cecece 0.13vw solid;
+}
+
+header .list {
+	position: absolute;
+	top: 4.5vw;
+	left: 2.8vw;
+	width: 4.24vw;
+}
+
+header .search {
+	position: absolute;
+	top: 4.5vw;
+	right: 2.8vw;
+	width: 4.27vw;
+}
+
+/* banner */
+.banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-width: none;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 18vw 2.82vw 9.33vw 2.82vw;
+	padding-top: 18vw;
+}
+
+.banner::-webkit-scrollbar {
+	height: 0;
+}
+
+.banner li img {
+	width: 88vw;
+	margin: 0 1.67vw;
+}
+
+/* subnav */
+.subnav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #fff;
+	padding-bottom: 6.27vw;
+	margin-bottom: 2.8vw;
+}
+
+.subnav li a {
+	width: 21.87vw;
+	font-family: PingFang-SC-Regular;
+	text-align: center;
+	font-size: 3.2vw;
+	color: #333333;
+
+}
+
+.subnav li a img {
+	width: 100%;
+}
+
+.subnav li a .name {
+	padding-top: 1.8vw;
+}
+
+/* 本家甄选 */
+.selection,.recommend {
+	background-color: #fff;
+	padding-top: 4.4vw;
+
+}
+
+.selection .title,.recommend .title,.look .title {
+	text-align: center;
+	font-family: PingFang-SC-Regular;
+	font-size: 3.73vw;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 4.6vw;
+}
+
+.selection .top,.recommend .top{
+	border: solid 0.27vw #f4f4f4;
+	padding-bottom: 8vw;
+	border-radius: 0.67vw;
+	width: 94vw;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.selection .top img,.recommend .top img {
+	width: 93.74vw;
+}
+
+.selection .top .name,.recommend .top .name{
+	font-family: PingFang-SC-Regular;
+	font-size: 4vw;
+	color: #333333;
+	padding: 3.5vw 0;
+	padding-left: 2.67vw;
+}
+
+.selection .top .introduce,.recommend .top .introduce{
+	font-family: PingFang-SC-Regular;
+	font-size: 3.47vw;
+	color: #999999;
+	text-align: left;
+	padding-left: 2.67vw;
+}
+
+.selection .bottom a {
+	width: 94.4vw;
+
+	box-sizing: border-box;
+	margin: 3.6vw auto;
+	border-radius: 1.33vw;
+	border: solid 0.27vw #f4f4f4;
+	padding: 2.93vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.selection .bottom .name {
+	font-family: PingFang-SC-Regular;
+	font-size: 4vw;
+	font-weight: bold;
+	color: #333333;
+}
+
+.selection .bottom .introduce {
+	font-family: PingFang-SC-Regular;
+	width: 51vw;
+	font-size: 3.2vw;
+	color: #999999;
+	padding-top: 2vw;
+}
+
+.selection .bottom img {
+	width: 30.67vw;
+}
+
+/* 十点一刻 */
+.topic {
+	text-align: center;
+	background-color: #fff;
+	margin-bottom: 2.67vw;
+}
+
+.topic .section_name {
+	padding: 4.3vw 0 4.5vw 0;
+	font-family: PingFang-SC-Regular;
+	font-size: 3.73vw;
+	font-weight: bold;
+	color: #333333;
+}
+
+.topic ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-width: none;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 0 2.82vw 9.33vw 2.82vw;
+}
+.topic ul::-webkit-scrollbar {
+	height: 0;
+}
+
+.topic ul li img {
+	width: 78.93vw;
+}
+.topic ul li{
+	position: relative;
+	margin-right:2.67vw ;
+}
+.topic ul li .text{
+	position: absolute;
+	top: 6.6vw;
+}
+.topic ul li .today{
+		font-family: PingFang-SC-Regular;
+		font-size: 2.93vw;
+		font-weight: bold;
+		color: #999999;
+}
+.topic ul li .title{
+	padding: 5vw 0 4vw 0;
+		font-family: PingFang-SC-Regular;
+		font-size: 4vw;
+		font-weight: bold;
+		color: #333333;
+}
+.topic ul li .introduce{
+	padding: 0 8.6vw;
+		font-size: 3.2vw;
+		color: #999999;
+}
+
+/* 本家推荐 */
+.recommend{
+	margin-bottom: 2.67vw;
+	padding-bottom: 4.67vw;
+}
+
+/* 本家LOOK */
+.look {
+	background-color: #f8f8f8;
+	padding-bottom:18vw ;
+}
+.look .title{
+	background-color: #fff;
+	padding-top: 4.4vw;
+} 
+ 
+.look .item{
+	width: 94.4vw;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 2.67vw;
+	padding: 2.67vw;
+	box-sizing: border-box;
+}
+.look .item .name{
+		font-family: PingFang-SC-Regular;
+		font-size: 3.47vw;
+		font-weight: bold;
+		color: #333333;
+		padding:3.8vw 0 4.5vw 0 ;
+}
+.look .typeA .img-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 0;
+}
+.look .typeA .midpic{
+	width: 61.87vw;
+}
+.look .typeA .smallpic{
+	width: 25.87vw;
+	margin-bottom: 1.33vw;
+	margin-left: 1.4vw;
+}
+.look .typeB img{
+	width: 89.07vw;
+}
+/* 底部导航栏 */
+nav {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top:0.4vw solid #eaeaea ;
+}
+
+nav .nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3.2vw 2vw 1vw 2vw;
+	background-color: #fff;
+}
+
+nav .nav a {
+	font-family: MicrosoftYaHeiUI;
+	font-size: 2.4vw;
+	color: #555555;
+}
+
+nav .nav a:visited {
+	color: #555555;
+}
+
+nav .nav li {
+	text-align: center;
+	width: 10vw;
+}
+
+nav .nav li img {
+	width: 5.6vw;
+}
+
+.to_top {
+	height: 10vw;
+	width: 10vw;
+	border: 0.2vw solid #eaeaea;
+	border-radius: 50%;
+	position: fixed;
+	right: 2.8vw;
+	bottom: 20vw;
+	background-color: #fff;
+	text-align: center;
+	line-height: 10vw;
+}
+
+.to_top img {
+	width: 5.4vw;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>搜索</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/goods_list.css">
+	</head>
+	<body>
+		<header>
+			<img onclick=history.back()  class="arrow-left" src="./img/address/arrow.png" alt="">
+			<span class="title">搜索</span>
+		</header>
+		<div class="search-section">
+			<form class="search-box" action="">
+				<div><input type="text" placeholder="马卡龙色 多功能早餐机" ><button type="button"><img src="./img/search/searchlogo.png" alt=""></button></div>
+			</form>			
+		</div>
+		<div class="result">
+			<ul class="nav">
+				<li>综合</li>
+				<li>销量</li>
+				<li>新品</li>
+				<li><span>价格</span><img src="./img/search_result/up-down.png" alt=""></li>
+			</ul>
+			<ul class="product_list">				
+			</ul>
+			
+		</div>
+		<img class="to_top" src="./img/search_null/to_top.png" alt="">
+		<script src="./js/alert.js"></script>
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/utils.js"></script>
+		<!-- <script src="./js/goods_list_native.js"></script> -->
+		<script src="./js/goods_list.js"></script>
+		
+	</body>
+</html>

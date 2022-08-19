@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登入</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/login.css">
+	</head>
+	<body>
+		<img class="logo" src="./img/login/logo.png" alt="">
+		<form class="login_form">
+			<input id="username" name="username" type="text" placeholder="用户名 ">
+			<input id="password" name="password" type="password" placeholder="请输入密码">
+			<button id="login" type="button">登入</button>
+		</form>
+		<div class="relative helper">
+			<a href="#">忘记密码?</a>
+			<a href="#">注册</a>
+			<div class="other_way">其他登入方式</div>
+		</div>
+		<ul class="other_ways">
+			<li><a href="#"><img src="./img/login/login_way1.png" alt=""><div>微信</div></a></li>
+			<li><a href="#"><img src="./img/login/login_way2.png" alt=""><div>QQ</div></a></li>
+			<li><a href="#"><img src="./img/login/login_way3.png" alt=""><div>微博</div></a></li>
+		</ul>
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/alert.js"></script>
+		<!-- <script src="./js/login_native.js"></script> -->
+		<script src="./js/login.js"></script>
+	</body>
+</html>

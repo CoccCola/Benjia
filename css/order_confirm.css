@@ -1,0 +1,201 @@
+body {
+	background-color: #fff;
+	font-family: MicrosoftYaHeiUI;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+	padding-bottom: 16vw;
+	box-sizing: border-box;
+}
+
+a {
+	display: inline-block;
+}
+
+header {
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+header {
+	border-bottom: 0.6vw solid #f4f4f4;
+}
+
+.addressSelect {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3.5vw 2.8vw;
+	background-color: #fff;
+	font-size: 3.73vw;
+	color: #555555;
+}
+
+.addressSelect img {
+	width: 2.53vw;
+}
+
+.address {
+	width: 94.4vw;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 2.27vw;
+	box-shadow: 0 0 2vw #77777766;
+}
+
+.address img {
+	width: 100%;
+	display: block;
+}
+
+.address .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2.8vw 3.73vw;
+}
+
+.address .top .right {
+	display: flex;
+	align-items: center;
+}
+
+.address .top .name {
+	font-size: 3.73vw;
+	color: #333333;
+}
+
+.address .top .tel {
+	margin-right: 3.2vw;
+	font-size: 3.73vw;
+	color: #333333;
+}
+
+.address .top .default {
+	border-radius: 0.67vw;
+	border: solid 0.2vw #c55a5c;
+	padding: 0.4vw 2vw;
+	font-size: 2.67vw;
+	color: #c55a5c;
+}
+
+.address .detail {
+	padding: 2vw 3.73vw 5vw 3.73vw;
+	font-size: 3.2vw;
+	color: #666666;
+}
+
+.list {
+	margin-top: 2.8vw;
+	padding: 0 3.33vw;
+	background-color: #fff;
+
+}
+
+.list .goods-list {
+	padding-top: 1.2vw;
+}
+
+.list .goods-list .item {
+	display: flex;
+	align-items: flex-end;
+	padding: 2.2vw 0 3vw 0;
+	border-bottom: 0.3vw solid #eee;
+}
+
+.list .goods-list .item .img-box {
+	border-radius: 2vw;
+	overflow: hidden;
+	margin-right: 2.67vw;
+}
+
+.list .goods-list .item img {
+	width: 21.47vw;
+	display: block;
+}
+
+.list .goods-list .item .name {
+	font-size: 3.47vw;
+	font-weight: bold;
+	color: #555555;
+	width: 67vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.list .goods-list .item .style {
+	padding: 2.4vw 0 3.5vw 0;
+}
+.list .goods-list .item .style .count{
+	margin-left: 3vw;
+}
+
+.total,
+.freight,
+.discounts,
+.remark {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4.67vw 0;
+	border-bottom: 0.3vw solid #eee;
+	font-size: 3.47vw;
+	font-weight: bold;
+	color: #555555;
+}
+
+.list .total .price,
+.list .freight .price {
+	font-size: 3.47vw;
+	color: #c55a5c;
+}
+
+.list .remark input {
+	border: none;
+	border-bottom: 0.3vw solid #eee;
+	width: 80vw;
+	padding-bottom: 1.2vw;
+	outline: none;
+}
+
+.submit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	background-color: #fff;
+}
+
+.submit .button{
+	padding: 4vw 11.73vw;
+	background-color: #c55a5c;
+	color: #fff;
+}
+
+.submit .price {
+	padding-left: 2.8vw;
+	font-size: 4vw;
+	font-weight: bold;
+	color: #c55a5c;
+}
+
+.null {
+	text-align: center;
+	padding: 5vw;
+	display: block;
+}

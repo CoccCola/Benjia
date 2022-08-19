@@ -1,0 +1,84 @@
+body {
+	background-color: #fff;
+}
+
+header {
+	position: relative;
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+header {
+	border-bottom: 2.67vw solid #f4f4f4;
+
+}
+
+.setting_list {
+	padding: 0 2.67vw;
+}
+
+.item {
+	padding: 4.3vw 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.2vw solid #e3e3e3;
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.73vw;
+}
+
+.item .name{
+	color: #333333;
+}
+
+.setting_list .item>img {
+	width: 1.8vw;
+}
+.btn-box{
+	 width: 13.33vw;
+	 	height: 6vw;
+	 	background-color: #c55a5c;
+	 	border-radius: 2.93vw;
+	 	border: solid 0.13vw #a35456;
+		
+}
+.btn-box .btn{
+	width: 5.73vw;
+		height: 5.6vw;
+		background-color: #ffffff;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 0.3vw;
+}
+
+.pay-btn {
+	box-sizing: border-box;
+	margin: 0 2.8vw;
+	background-color: #c55a5c;
+	text-align: center;
+	padding: 4.53vw 0;
+	border-radius: 1.33vw;
+	position: fixed;
+	bottom: 22.67vw;
+	width: 94.4vw;
+	font-size: 3.73vw;
+	color: #fff;
+}
+
+.pay-btn:visited {
+	color: #fff;
+}

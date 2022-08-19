@@ -1,0 +1,113 @@
+body {
+	height: 100vh;
+	background-color: #f4f8f7;
+}
+
+header {
+	position: relative;
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+.address_form>div {
+	padding: 2.93vw 2.93vw 3.47vw 2.93vw;
+	border-top: 0.1vw solid #ddd;
+	background-color: #fff;
+	font-size: 3.73vw;
+	display: flex;
+	justify-content: left;
+}
+
+.address_form>div:last-child {
+	border-bottom: 0.1vw solid #ddd;
+}
+
+.address_form label {
+	display: inline-block;
+	color: #666;
+	width: 24vw;
+}
+
+.address_form input,
+.address_form textarea {
+	border: none;
+	outline: none;
+	color: #333;
+	font-family: MicrosoftYaHeiUI;
+}
+.address_form input[type="text"]{
+	width: 70vw;
+}
+.address_form .selections {
+	width: 70vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.address_form .selections select {
+	width: 31vw;
+	border: 0.1vw solid #ddd;
+	padding: 0.8vw;
+	outline: none;
+}
+
+.address_form select:nth-child(1),
+.address_form select:nth-child(2) {
+	margin-bottom: 2.8vw;
+}
+
+.address_form textarea {
+	height: 16.5vw;
+	resize: none;
+}
+
+.address_form .selected_button {
+	width: 4vw;
+	height: 4vw;
+
+}
+
+.address_form .default {
+	justify-content: space-between;
+	align-items: center;
+}
+.address_form .default .select-box{
+	width: 4vw;
+	height: 4vw;
+	border: 0.1vw solid #d1d1d1;
+}
+.address_form .default .select-box img {
+	width: 100%;
+}
+.save-button {
+	position: fixed;
+	bottom: 4.13vw;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	background-color: #c55a5c;
+	color: #fff;
+	width: 94.4vw;
+	padding: 3.2vw 0;
+	text-align: center;
+	font-size: 3.73vw;
+	border-radius: 0.53vw;
+	border: none;
+}
+
+.save-button:visited {
+	color: #fff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>账户资料</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/user_inf.css">
+	</head>
+	<body>
+		<header>
+			<img onclick=history.back() class="arrow-left" src="./img/user_inf/arrow.png" alt="">
+			<span class="title">账户资料</span>
+		</header>
+		<form class="inf_form" action="" method="">
+			<div class="avator">
+				<label class="photo relative" for="uploader">
+					<img src="./img/user_inf/avatar.jpg" alt="">
+				</label>
+				<input type="file" id="uploader" class="photo_up">
+				
+			</div>
+			<div class="item">
+				<label>昵称</label><input type="text" name="nickname"  />
+			</div>
+			<div class="item">
+				<label >性别</label>
+				<div>
+					<label class="select_helper"><input type="radio" checked name="sex"  value="男"/><span>男</span></label>
+					<label class="select_helper"><input type="radio" name="sex"  value="女"/><span>女 </span></label>
+				</div>				
+			</div>
+			<div class="item">
+				<label>手机</label>
+				<input type="text" name="tel"/>
+			</div>
+			<button type="button" class="save-btn">保存修改</button>
+		</form>		
+		
+
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/alert.js"></script>
+		<script src="./lib/swiper/js/alert1.js"></script>
+		<script src="./js/utils.js"></script>
+		<script src="./js/user_inf.js"></script>
+	</body>
+</html>

@@ -1,0 +1,182 @@
+body {
+	background-color: #fff;
+	font-family: MicrosoftYaHeiUI;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+}
+
+a {
+	display: inline-block;
+}
+
+header {
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+header {
+	border-bottom: 0.6vw solid #f4f4f4;
+}
+
+.nav {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2.67vw;
+}
+
+.nav .item  {
+	padding: 2.5vw 0.7vw;
+	box-sizing: border-box;
+	font-size: 3.73vw;
+	color: #545353;
+}
+
+.nav .item.selected {
+	border-bottom: solid 0.5vw #c55a5c;
+}
+
+.bubble{
+	width: 3.2vw;
+	height: 3.2vw;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 1.5vw;
+	background-color: #c55a5c;
+	text-align: center;
+	line-height: 3.2vw;
+	position: absolute;
+	top: 2vw;
+	right: -3vw;
+	display: none;
+}
+
+.order_list {
+	padding: 0 2.67vw;
+}
+
+.order_list .item {
+	margin-top: 4vw;
+	border-radius: 0.8vw;
+	background-color: #fff;
+	padding: 2vw 3.4vw 3.2vw 2.93vw;
+}
+
+.order_list .item .top {
+	border-bottom: 0.4vw solid #f4f4f4;
+	padding-bottom: 2.4vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.order_list .item .top .unpaidText {
+	font-size: 3.2vw;
+	color: #c55a5c;
+}
+
+.order_list .item .top .time {
+	font-size: 2.84vw;
+	color: #999999;
+}
+
+.order_list .item .goods {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-bottom: 0.4vw solid #f4f4f4;
+	padding-bottom: 2vw;
+	margin-top: 3.2vw;
+}
+
+.order_list .item .goods img {
+	width: 22.27vw;
+	margin-right: 3.2vw;
+}
+
+.order_list .item .goods .detail {
+	width: 88vw;
+	padding-top: 1.2vw;
+
+}
+
+.order_list .item .goods .name {
+	margin-bottom: 2.5vw;
+	font-size: 3.47vw;
+	color: #333333;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+.order_list .item .goods .style-box {
+	display: flex;
+	justify-content: space-between;
+	font-size: 3.2vw;
+	margin-bottom: 2.5vw;
+}
+
+.order_list .item .goods .style-box .style {
+	color: #aaaaaa;
+}
+
+.order_list .item .goods .style-box .sub-price {
+	color: #666666;
+}
+
+.order_list .item .goods .count-box {
+	display: flex;
+	justify-content: flex-end;
+	color: #999999;
+}
+
+.order_list .item .statistics {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1.5vw 0 3.2vw 0;
+}
+
+.order_list .item .statistics .count {
+	color: #c55a5c;
+	padding: 0 1vw;
+}
+
+.order_list .item .statistics .price {
+	color: #c55a5c;
+}
+
+.order_list .item .button-box {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.order_list .item .button-box div {
+	padding: 1vw 3.6vw;
+	border-radius: 2.93vw;
+	border: solid 0.15vw #aaaaaa;
+	font-size: 3.2vw;
+	color: #383636;
+}
+
+.order_list .item .button-box .pay {
+	border: solid 0.15vw #c55a5c;
+	color: #c55a5c;
+	margin-left: 3vw;
+}

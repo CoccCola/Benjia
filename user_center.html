@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人中心</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/user.css">
+	</head>
+	<body>
+		<header class="relative">
+			<div class="user_inf relative">
+				<a class="user" href="./user_inf.html">
+					<div class="img-box"><img src="./img/user/avatar.jpg" height="100%" alt=""></div>
+					 <div class="name">简希</div>
+				</a>
+				<a class="left" href="./collection.html">
+					<div class="num">15</div>
+					<div class="title">我的收藏</div>
+				</a>
+				<a class="right" href="#">
+					<div class="num">31</div>
+					<div class="title">关注品牌</div>
+				</a>
+			</div>
+		</header>
+		<div class="my_order">
+			<div class="top">
+				<div class="title">我的订单</div>
+				<a class="all_order" href="#">全部订单<img src="./img/user/arrow_r.png" alt=""></a>
+			</div>
+			<ul>
+				<li>
+					<a href="./orders.html?status=0&back=1">
+					<img src="./img/user/order1.png" alt="">
+					<div class="name">待付款</div>
+					</a>
+				</li>
+				<li>
+					<a href="./orders.html?status=3&back=1">
+					<img src="./img/user/order2.png" alt="">
+					<div class="name">待发货</div>
+					</a>
+				</li>
+				<li>
+					<a href="./orders.html?status=4&back=1">
+					<img src="./img/user/order3.png" alt="">
+					<div class="name">待收货</div>
+					</a>
+				</li>
+				<li>
+					<a href="./orders.html?status=5&back=1">
+					<img src="./img/user/order4.png" alt="">
+					<div class="name">待评价</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/order5.png" alt="">
+					<div class="name">售后</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="my_assets">
+			<div class="top">
+				<div class="title">我的订单</div>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+					<img src="./img/user/assets1.png" alt="">
+					<div class="name">优惠券</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/assets2.png" alt="">
+					<div class="name">钱包</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/assets3.png" alt="">
+					<div class="name">D币</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/assets4.png" alt="">
+					<div class="name">红包</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="tool">
+			<div class="top">
+				<div class="title">工具</div>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool1.png" alt="">
+					<div class="name">会员中心</div>
+					</a>
+				</li>
+				<li>
+					<a href="./address_list.html">
+					<img src="./img/user/tool2.png" alt="">
+					<div class="name">收货地址</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool3.png" alt="">
+					<div class="name">售后&客服</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool4.png" alt="">
+					<div class="name">设置</div>
+					</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool5.png" alt="">
+					<div class="name">入驻合作</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool6.png" alt="">
+					<div class="name">反馈&投诉</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool7.png" alt="">
+					<div class="name">商品报告</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/tool8.png" alt="">
+					<div class="name">关于我们</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<nav>
+			<ul class="nav">
+				<li>
+					<a href="./index.html">
+					<img src="./img/user/nav1.png" alt="">
+					<div class="name">首页</div>
+					</a>
+				</li>
+				<li>
+					<a href="./preferred.html">
+					<img src="./img/user/nav2.png" alt="">
+					<div class="name">优选</div>
+					</a>
+				</li>
+				<li>
+					<a href="./category.html">
+					<img src="./img/user/nav3.png" alt="">
+					<div class="name">分类</div>
+					</a>
+				</li>
+				<li>
+					<a href="./cart.html">
+					<img src="./img/user/nav4.png" alt="">
+					<div class="name">购物车</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="./img/user/nav5s.png" alt="">
+					<div class="name">我的</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<script src="./js/axios.min.js"></script>
+		<script src="./js/axios.config.js"></script>
+		<script src="./js/alert.js"></script>
+		<script src="./js/user_center.js"></script>
+	</body>
+</html>

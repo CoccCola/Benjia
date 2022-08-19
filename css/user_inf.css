@@ -1,0 +1,108 @@
+body {
+	background-color: #fff;
+}
+
+header {
+	position: relative;
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+header {
+	border-bottom: 2.67vw solid #f4f4f4;
+
+}
+
+.inf_form {
+	margin: 0 2.67vw;
+
+}
+
+.inf_form .avator {
+	text-align: center;
+	margin-top: 8vw;
+}
+
+.inf_form .avator .photo_up {
+	display: none;
+}
+
+.inf_form .avator .photo {
+	display: inline-block;
+	width: 29.33vw;
+	height: 29.33vw;
+	background-color: #eeeeee;
+	border: solid 0.27vw #b5b5b5;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.inf_form .avator .photo img {
+	height: 29.33vw;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.item {
+	padding: 4.3vw 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.2vw solid #e3e3e3;
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.73vw;
+}
+
+.item .name {
+	color: #333333;
+}
+
+.inf_form input[type="text"] {
+	border: none;
+	text-align: right;
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.73vw;
+	color: #333;
+	outline: none;
+}
+.inf_form input[type="radio"]{
+	margin-right:3.07vw ;
+	vertical-align: middle;
+}
+.inf_form  .select_helper{
+	margin-left: 8vw;
+}
+.inf_form  .select_helper span{
+	vertical-align: middle;
+}
+.save-btn {
+	box-sizing: border-box;
+	margin: 0 2.8vw;
+	background-color: #c55a5c;
+	text-align: center;
+	padding: 4.53vw 0;
+	border-radius: 1.33vw;
+	position: fixed;
+	bottom: 22.67vw;
+	width: 89.06vw;
+	font-size: 3.73vw;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+
+.save-btn:visited {
+	color: #fff;
+}

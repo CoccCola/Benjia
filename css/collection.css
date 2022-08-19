@@ -1,0 +1,76 @@
+body {
+	background-color: #fff;
+	font-family: MicrosoftYaHeiUI;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #fff;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 3.73vw;
+	color: #555555;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+header .arrow-left {
+	position: absolute;
+	left: 2.8vw;
+	width: 2.67vw;
+	height: 4.67vw;
+}
+
+header {
+	border-bottom: 0.6vw solid #f4f4f4;
+}
+
+.collections {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.collections .item {
+	padding: 2.5vw 3.2vw 3.8vw 3.2vw;
+	background-color: #fff;
+	width: 43.3vw;
+	margin-bottom: 0.6vw;
+}
+
+.collections .item img {
+	width: 43.2vw;
+
+}
+
+.collections .item .name {
+	font-size: 4.27vw;
+	color: #555555;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.collections .item .introduce {
+	font-size: 3.2vw;
+	color: #999999;
+	padding: 2.2vw 0 3.5vw 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.collections .item .price {
+	font-size: 3.73vw;
+	color: #c55a5c;
+}
+
+.collections .item .cancel {
+	position: absolute;
+	right: 2vw;
+	top: 2.27vw;
+	width: 4.4vw;
+}

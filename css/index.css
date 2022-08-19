@@ -1,0 +1,284 @@
+a {
+	display: inline-block;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+header {
+	position: relative;
+	background-color: #fbfbfb;
+	padding: 3.73vw 2.8vw;
+	text-align: center;
+	font-size: 4.8vw;
+	color: #333333;
+	position: fixed;
+	top: 0;
+	width: 94.4vw;
+	border-bottom: #cecece 0.13vw solid;
+}
+
+header .list {
+	position: absolute;
+	top: 4.5vw;
+	left: 2.8vw;
+	width: 4.24vw;
+}
+
+header .search {
+	position: absolute;
+	top: 4.5vw;
+	right: 2.8vw;
+	width: 4.27vw;
+}
+
+.banner_nav {
+	padding: 17.2vw 2.7vw 6.13vw 2.7vw;
+	background-color: #fff;
+}
+
+.banner_nav .banner {
+	width: 94.53vw;
+	height: 52.27vw;
+	box-shadow: 0 0 6vw #cececeee;
+	display: block;
+}
+.swiper-slide a{
+	display: block;
+}
+.swiper{
+	margin-bottom: 6.93vw;
+}
+.banner_nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner_nav ul li {
+	width: 15vw;
+	text-align: center;
+
+}
+
+.banner_nav ul li a {
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.2vw;
+	color: #333333;
+}
+
+.banner_nav ul li img {
+	width: 8.8vw;
+	height: 7.5vw;
+	padding-bottom: 1.4vw;
+}
+
+/* 精品热卖 */
+
+.head {
+	text-align: center;
+	background-color: #fff;
+	padding: 3.2vw 0 2.7vw 0;
+	margin-bottom: 0.27vw;
+}
+
+.head .title {
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.73vw;
+	color: #333333;
+}
+
+.head .line {
+	border-top: 0.2vw solid #bbb;
+	width: 8.67vw;
+	margin: 0 auto;
+	margin-top: 0.8vw;
+}
+
+.head .en {
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 1.6vw;
+	color: #666666;
+	margin: 0 auto;
+	
+}
+
+.products ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.products ul li {
+	width: 33.07vw;
+	background-color: #fff;
+	padding-bottom: 4vw;
+	margin-bottom: 0.27vw;
+}
+
+.products ul li img {
+	width: 33.07vw;
+
+}
+
+.products ul li .name {
+	padding: 2.4vw 2.8vw;
+	font-family: MicrosoftYaHeiUILight;
+	font-size: 3.47vw;
+	line-height: 4.8vw;
+	color: #555555;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;					
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+.products ul li .price {
+	padding: 0 2.8vw;
+	font-size: 3.47vw;
+	color: #c55a5c;
+}
+
+.sproducts {
+	margin-top: 2.3vw;
+	background-color: #fff;
+	padding-bottom: 7.7vw;
+}
+
+.sproducts ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-width: none;
+	box-sizing: border-box;
+}
+
+.sproducts ul::-webkit-scrollbar {
+	height: 0;
+}
+
+.sproducts ul li img {
+	width: 76vw;
+	margin-left: 2.8vw;
+}
+
+.sproducts ul li .name_price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3vw 2.5vw 1.87vw 5.3vw;
+}
+
+.sproducts ul li .name {
+	font-size: 3.73vw;
+	color: #333333;
+}
+
+.sproducts ul li .price {
+	font-size: 3.47vw;
+	color: #c55a5c;
+}
+
+.sproducts ul li .introduce {
+	font-size: 3.2vw;
+	color: #999999;
+	padding-left: 5.3vw;
+}
+
+/* 好物推荐 */
+.goods {
+	margin-top: 2.3vw;
+	padding-bottom: 15vw;
+}
+
+.goods ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.goods ul li a{
+	background-color: #fff;
+	margin-bottom: 0.3vw;
+	width: 49.85vw;
+}
+
+.goods ul li img {
+	width: 100%;
+}
+
+.goods ul li .name {
+	font-size: 3.47vw;
+	color: #555555;
+	padding-left: 3.2vw;
+	padding-top: 2.5vw;
+}
+
+.goods ul li .introduce {
+	font-size: 2.67vw;
+	color: #999999;
+	padding:1.33vw 3.2vw 2.93vw 3.2vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.goods ul li .price {
+	font-size: 3.47vw;
+	padding-left: 3.2vw;
+	padding-bottom: 5vw;
+	color: #c55a5c;
+}
+
+/* 底部导航栏 */
+nav{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top:0.4vw solid #eaeaea ;
+}
+nav .nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3.2vw 2vw 1vw 2vw ;
+	background-color: #fff;
+}
+nav .nav a{
+		font-family: MicrosoftYaHeiUI;
+		font-size: 2.4vw;
+		color: #555555;
+}
+nav .nav a:visited {
+	color: #555555;
+}
+nav .nav li{
+	text-align: center;
+	width: 10vw;
+}
+nav .nav li img{
+	width: 5.6vw;
+}
+
+.to_top{
+	height: 10vw;
+	width: 10vw;
+	border: 0.2vw solid #eaeaea;
+	border-radius: 50%;
+	position: fixed;
+	right: 2.8vw;
+	bottom: 20vw;
+	background-color: #fff;
+	text-align: center;
+	line-height: 10vw;
+}
+.to_top img{
+	width: 5.4vw;
+}
